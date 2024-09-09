@@ -7,4 +7,5 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      - run: echo "test"
+      - name: Echo test
+        run: echo "test"
